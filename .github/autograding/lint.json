@@ -1,6 +1,8 @@
 {
   "files": [
-    "test_main.py"
+    "test_main.py",
+    "test_authenticate",
+    "test_lottery"
   ],
   "ignore" : [],
   "max": 10

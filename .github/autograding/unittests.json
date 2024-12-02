@@ -16,5 +16,23 @@
     "function": "test_main_ticket",
     "timeout": 10,
     "points": 1
+  },
+  {
+    "name": "test_type_load_people",
+    "function": "test_type_load_people",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_load_people",
+    "function": "test_load_people",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_login",
+    "function": "test_login",
+    "timeout": 10,
+    "points": 1
   }
 ]
