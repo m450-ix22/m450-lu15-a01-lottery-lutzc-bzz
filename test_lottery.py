@@ -1,5 +1,6 @@
+"""LU15 A01"""
+
 import pytest
-import lottery
 from lottery import create_ticket
 from person import Person
 
@@ -8,7 +9,7 @@ from person import Person
 def dummy_person():
     return Person('person', 'password', 20)
 
-def test_create_ticket(dummy_person, capsys, monkeypatch):
+def test_create_ticket(dummy_person, monkeypatch):
     inputs = iter([1, 2, 3, 4, 5, 6, 1])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     create_ticket(dummy_person)

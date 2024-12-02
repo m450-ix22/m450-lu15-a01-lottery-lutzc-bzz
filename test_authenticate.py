@@ -1,8 +1,10 @@
+"""LU15 A01"""
+
 from authenticate import load_people, login
 
 def test_type_load_people():
     people = load_people()
-    assert type(people) == list
+    assert isinstance(people, list)
 
 def test_load_people():
     people = load_people()
